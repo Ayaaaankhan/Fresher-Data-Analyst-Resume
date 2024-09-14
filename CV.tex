@@ -1,0 +1,145 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{geometry}
+\input{glyphtounicode}
+
+% Adjust page margins
+\geometry{
+    top=0.5in,
+    bottom=0.5in,
+    left=0.5in,
+    right=0.5in
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge \scshape Mohammed Ayaan Amber Khan} \\ \vspace{1pt}
+    \small +91-9353704439 $|$ \href{mailto:mdkaifansa53@gmail.com}{\underline{makayaan9@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/...}{\underline{linkedin.com/in/ayaaaankhan09}} $|$
+    \href{https://github.com/...}{\underline{github.com/Ayaaaankhan}}
+\end{center}
+
+\section{Professional Summary}
+\small{Data Analytics Enthusiast seeking opportunities to leverage data insights and analytical skills to drive strategic business decisions. Proficient in data analysis, visualization, and data-driven decision-making to deliver impactful business outcomes.}
+
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Bachelor of Engineering in Computer Science}{Sep. 2020 -- July 2024}
+    {HKBK College Of Engineering,Bangalore.}{CGPA: 8.1}
+\resumeSubHeadingListEnd
+
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+   \textbf{Analytical Tools:}  Proficient in Power BI, MySQL, and Excel, Experience with programming in Jupyter notebook. \\
+   \textbf{Programming Languages:} Expertise in SQL, Python and Libraries (NumPy, Pandas,  Matplotlib and Seaborne). \\
+   \textbf{Technical Skills:}  Proficient in data wrangling, cleaning, and modeling, with hands-on experience in statistical data analysis and visualization. \\
+   \textbf{Core Competencies:} Collaborates effectively with cross-functional teams, communicating insights to both technical and non-technical stakeholders. Quickly adapts to business needs and domain knowledge.}}
+\end{itemize}
+
+\section{Projects}
+\resumeSubHeadingListStart
+  \resumeProjectHeading
+    {\textbf{Holistic Business Analytics Suite} $|$ \textit{SQL and Power BI}}{2024}
+    \resumeItemListStart
+      \resumeItem{Analyzed sales data for a hardware manufacturing company using MySQL, designing and implementing a Snowflake schema with ERD. Developed stored procedures for complex queries to extract key metrics for finance, sales, market, and supply chain analysis.}
+      \resumeItem{Integrated Power BI with MySQL and Excel, leveraging Power Query for data transformation and DAX for creating interactive dashboards with KPIs and trend analysis. Conducted User Acceptance Testing and data validation, incorporating stakeholder feedback to optimize dashboard performance and address quality issues.}
+      \resumeItem{Produced detailed reports and executive dashboards highlighting key markets, platforms, and customers. Utilized project management skills, including stakeholder mapping and Kanban boards, to enhance productivity and ensure successful deployment of dashboards with automated data refresh for continuous updates.}
+    \resumeItemListEnd
+  \resumeProjectHeading
+    {\textbf{Zomato Insight360} $|$ \textit{Python and Jupyter Notebook}}{2024}
+    \resumeItemListStart
+      \resumeItem{Conducted a detailed analysis of Zomato restaurant data utilizing Python libraries (Pandas, Numpy, Matplotlib, Seaborn) for data cleaning, trend identification, and statistical visualization.}
+      \resumeItem{Revealed actionable insights, including the predominance of dining restaurants, superior ratings for online orders, and cost preferences for couples dining.}
+      \resumeItem{Employed Google Colab or Jupyter Notebook for sophisticated data manipulation and developed interactive dashboards to effectively communicate findings to stakeholders.}
+    \resumeItemListEnd
+  \resumeProjectHeading
+    {\textbf{Virtual Assistant for Visually impaired} $|$ \textit{python, Google Cloud Vision API}}{2023}
+    \resumeItemListStart
+      \resumeItem{Virtual assistant combines Python Google Cloud Vision API for real-time image analysis, aiding navigation object
+recognition for visually impaired.}
+      \resumeItem{Designed for accessibility, it empowers users with instant support in diverse scenarios, adapting to environments
+recognizing objects.}
+      \resumeItem{Continuous refinement ensures an intuitive, effective experience through seamless integration and efficient image
+interpretation.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\section{Experience}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Student Trainee}{August,2023- Sept,2023}
+    {Compsoft Technologies}{Online}
+    \resumeItemListStart
+      \resumeItem{Developed a voice-controlled virtual assistant. ”A” Voice Assistant,” designed to assist individuals with visual impairments.}
+      
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\section{Achievements and Certifications}
+\resumeItemListStart
+  \resumeItem{Machine Learning with Python from Compsoft Technologies.}
+  \resumeItem{Python A-Z and Machine Learning from UDEMY.}
+  \resumeItem{Participated in AI and IoT workshop organized by HKBK and VTU.}
+  \resumeItem{ Successfully Completed Data Analyst certification from UpGrad Campus.}
+\resumeItemListEnd
+
+\end{document}
